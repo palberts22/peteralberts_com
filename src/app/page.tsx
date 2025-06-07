@@ -27,10 +27,10 @@ export default function Home() {
 //	const dots = '.'.repeat(dotCount);
 
 	return (
-		<main className="h-screen flex items-center justify-center bg-black text-[#00FF41] font-mono">
-			<h1 className="text-4xl mb-4 flex items-center">
-				under construction
-				<span className="w-2[2ch] ml-1">{animatedDots}</span>	
+		<main className="min-h-screen flex items-center justify-center bg-black text-[#00FF41] font-mono px-4">
+			<h1 className="text-lg sm:text-xl  md:text-2xl lg:text-3xl flex items-baseline space-x-1">
+				<span>under construction</span>
+				<span className="inline-flex">{animatedDots}</span>	
 			</h1>
 		</main>
 
